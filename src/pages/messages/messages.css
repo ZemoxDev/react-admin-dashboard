@@ -1,0 +1,127 @@
+.messages{
+    flex: 4;
+}
+
+.messagesContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 5px -3px #000000;
+    box-shadow: 0px 0px 5px -3px #000000;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.messagesTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.messageWrapper{
+    max-width: 50%;
+    margin-left: 20px;
+    padding-left: 80px;
+    border-left: 1px solid #f1f1f1;
+}
+
+.messageList{
+    padding: 20px 15px;
+}
+
+.messageListItem{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.messageListItem:hover{
+    background-color: #f1f1f1;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    color: #112D4E;
+}
+
+.heading a{color: inherit; text-decoration: none; font-size: 1.5em; vertical-align: middle;}
+.heading h3{font-weight: 400;}
+
+#message{
+    width: 100%;
+}
+
+.first{
+    max-width: 70%;
+    min-width: 10%;
+    font-size: .85em;
+    margin: 10% 0 3% 0;
+    animation: scaler 150ms ease-out;
+}
+
+.first p{
+    background-color: #e3e8ee;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-weight: 500;
+}
+
+.second{
+    max-width: 70%;
+    min-width: 10%;
+    font-size: .85em;
+    margin: 10% 0 3% 0;
+    animation: scaler 150ms ease-out;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.second p{
+    background-color: #112D4E;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-weight: 500;
+}
+
+.reply{
+    padding: 15px 0;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.replyInput{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    background-color: inherit;
+}
+
+.replyInput:focus, .replyButton:focus{
+    outline: 0;
+}
+
+.replyButton{
+    background-color: #112D4E;
+    color: #fff;
+    padding: 15px 10px;
+    width: 20%;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    border-radius: 10px;
+}

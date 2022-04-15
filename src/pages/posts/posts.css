@@ -1,0 +1,23 @@
+.posts{
+    flex: 4;
+}
+
+.postsEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3F72AF;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.postsView {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
