@@ -321,6 +321,57 @@ export const monthlyProfit = [
   },
 ];
 
+export const registeredUsers = [
+  {
+    name: 'Jan',
+    "Registered": 18,
+  },
+  {
+    name: 'Feb',
+    "Registered": 19,
+  },
+  {
+    name: 'Mar',
+    "Registered": 21,
+  },
+  {
+    name: 'Apr',
+    "Registered": 34,
+  },
+  {
+    name: 'May',
+    "Registered": 27,
+  },
+  {
+    name: 'Jun',
+    "Registered": 23,
+  },
+  {
+    name: 'Jul',
+    "Registered": 21,
+  },
+  {
+    name: 'Agu',
+    "Registered": 4,
+  },
+  {
+    name: 'Sep',
+    "Registered": 12,
+  },
+  {
+    name: 'Oct',
+    "Registered": 32,
+  },
+  {
+    name: 'Nov',
+    "Registered": 42,
+  },
+  {
+    name: 'Dec',
+    "Registered": 47,
+  },
+];
+
 export const allTimeSales = [
   {
     name: 'Year 1',

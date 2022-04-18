@@ -23,7 +23,7 @@ export default function Posts() {
         renderCell: (params)=>{
             return(
                 <> 
-                    <Link to={"/product/" + params.row.id}>
+                    <Link to={"/"}>
                         <button className="postsEdit">Edit</button>
                     </Link>
                 </>
@@ -38,7 +38,7 @@ export default function Posts() {
         renderCell: (params)=>{
             return(
                 <> 
-                    <Link to={"/product/" + params.row.id}>
+                    <Link to={"/"}>
                         <button className="postsView">View</button>
                     </Link>
                 </>

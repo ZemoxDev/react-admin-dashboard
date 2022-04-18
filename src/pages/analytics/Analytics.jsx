@@ -1,7 +1,7 @@
 import React from 'react'
 import "./analytics.css"
 import {Link} from 'react-router-dom';
-import { allTimeBlogPosts, allTimeSales, monthlyProfit, yearlyProfit } from '../../dummyData';
+import { allTimeBlogPosts, allTimeSales, monthlyProfit, registeredUsers, yearlyProfit } from '../../dummyData';
 import {
     LineChart,
     Line,
@@ -62,9 +62,9 @@ export default function Analytics() {
         <div className="productTopRight">
           <h2> Registered Users </h2>
           <ResponsiveContainer width="100%" aspect={4 / 1}>
-            <LineChart data={yearlyProfit}>
+            <LineChart data={registeredUsers}>
                 <XAxis dataKey="name" stroke="#112D4E"/>
-                <Line type="monotone" dataKey="Profit" stroke="#112D4E" />
+                <Line type="monotone" dataKey="Registered" stroke="#112D4E" />
                 <Tooltip />
             </LineChart>
           </ResponsiveContainer>

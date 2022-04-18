@@ -1,3 +1,54 @@
 .settings{
     flex: 4;
 }
+
+.settingsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 5px -3px #000000;
+    box-shadow: 0px 0px 5px -3px #000000;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.settingsTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.settingsContent{
+    padding: 20px;
+}
+
+.settingsContent label{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.settingsInputContainer{
+    margin-bottom: 20px;
+}
+
+.settingsInput{
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: inherit;
+}
+
+.settingsUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3F72AF;
+    color: white;
+    font-weight: 600;
+}
